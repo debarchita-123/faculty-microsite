@@ -1,0 +1,181 @@
+/* Reset styling */
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    line-height: 1.6;
+    color: #333;
+}
+html, body {
+    height: 100%; /* Ensure the body takes up the full viewport height */
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faculty{
+    width: 65%;
+    height: 8%;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+
+/* Main Content */
+main {
+    flex-grow: 1; /* Make sure main grows to fill available space */
+    min-height: 100vh; /* Ensures the content fills the screen height */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #012b51;
+    color: rgb(6, 77, 6);
+    /* background-image: url("kiitimg.png"); */
+    background-image: url("assets/KIIT-Campus.jpg");
+    /* background-image: url("KIIT-Flag-at-c6.jpg"); */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.welcome-content {
+    max-width: 60%;
+}
+
+.welcome h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #003d7a;
+}
+
+/* Image next to the welcome text */
+/* .welcome-image img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+} */
+
+/* News Section */
+.news {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.news h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.news ul {
+    list-style: none;
+}
+
+.news ul li {
+    margin-bottom: 15px;
+    color: black;
+}
+
+
+#faculty-details {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg, #19848b 0%, rgb(130, 233, 242) 35%, rgb(239, 174, 240) 100%); */
+    /* background: linear-gradient(90deg, #01042c 0%, rgb(3, 11, 65) 35%, rgb(6, 15, 119) 100%); */
+    background-image: url("assets/3409297.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    /* background-color: #003d7a; */
+    color: powderblue;
+}
+
+#faculty-info {
+    text-align: center;
+}
+
+#faculty-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid cyan;
+    box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+}
+
+#faculty-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#faculty-details h2 {
+    margin-bottom: 20px;
+}
+
+#back-btn {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+#back-btn:hover {
+    background-color: #e55a00;
+}
